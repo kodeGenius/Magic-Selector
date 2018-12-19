@@ -1,2 +1,2 @@
 # Magic-Selector
-This is used to select Balls Magically and have a statement returned on the ball you se
+This is used to select Balls Magically and have a statement returned on the ball you s
