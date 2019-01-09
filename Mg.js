@@ -5,11 +5,11 @@ function username() {
 }
 
 
-const compare2 = () =>{
+function compare2(){
 	let randomNumber = Math.floor(Math.random()*8);
 	let eightBall = '';
 	let myNum = document.getElementById('numValue').value;
-	if(randomNumber == myNum){
+	if(randomNumber === myNum){
 		switch (randomNumber) {
   case 0:
   	eightBall = 'It is certain';
@@ -33,7 +33,8 @@ const compare2 = () =>{
   	eightBall = 'Signs point to yes';
   	break;
 	}
-
+	
+	}else{
+		console.log(document.getElementById('root').innerHTML = eightBall);	
 	}
-	document.getElementById('root').innerHTML = eightBall;
 }
