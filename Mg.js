@@ -35,6 +35,7 @@ function compare2(){
 	}
 	
 	}else{
-		console.log(document.getElementById('root').innerHTML = eightBall);	
+		
 	}
 }
+console.log(document.getElementById('root').innerHTML = eightBall);	
