@@ -6,9 +6,18 @@ function username() {
 
 function compare2(){
 	//let randomNumber = Math.floor(Math.random()*8);
-	let eightBall;
+	let eightBall = ' ';
 	let myNum = document.getElementById('numValue').value;
-	switch (myNum) {
+	if(myNum === 0){
+		alert('0')
+	}else if(myNum===1){
+		alert('1')
+	}else if(myNum===2){
+		alert('2')
+	}else if(myNum===3){
+		alert('3')
+	}
+	/*switch (myNum) {
   case 0:
   	eightBall = 'It is certain';
   	break;
@@ -16,7 +25,7 @@ function compare2(){
   	eightBall = 'It is decidedly so';
   	break;
   case 3:
-  	eightBall = 'Cannot predict now';
+  	alert( 'Cannot predict now' );
   	break;
   case 4:
   	eightBall = 'Do not count on it';
