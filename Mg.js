@@ -9,6 +9,7 @@ function compare2(){
 	let randomNumber = Math.floor(Math.random()*8);
 	let eightBall = '';
 	let myNum = document.getElementById('numValue').value;
+	console.log(randomNumber);
 	if(randomNumber == myNum){
 		console.log("correct number")
 	
