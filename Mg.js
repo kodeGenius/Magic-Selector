@@ -4,7 +4,6 @@ function username() {
 	document.getElementById('mi').innerHTML =`Hey ${wname}! Please select your Magic Number`
 }
 
-
 function compare2(){
 	//let randomNumber = Math.floor(Math.random()*8);
 	let eightBall = '';
@@ -17,7 +16,7 @@ function compare2(){
   	eightBall = 'It is decidedly so';
   	break;
   case 3:
-  	eightBall = 'Cannot predict now';
+  	console.log('Cannot predict now');
   	break;
   case 4:
   	eightBall = 'Do not count on it';
@@ -31,9 +30,9 @@ function compare2(){
   case 7:
   	eightBall = 'Signs point to yes';
   	break;
-}
+	}
 
-console.log(eightBall);
+	//console.log(eightBall);
 
 	/*console.log(randomNumber);
 	if(randomNumber == myNum){
