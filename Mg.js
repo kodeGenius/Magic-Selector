@@ -16,4 +16,4 @@ function compare2(){
 		console.log("Wrong number")
 	}
 }
-console.log(document.getElementById('root').innerHTML = eightBall);	
+
