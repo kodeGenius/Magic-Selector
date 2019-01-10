@@ -15,5 +15,7 @@ function compare2(){
 	}else{
 		console.log("Wrong number")
 	}
+	console.log(myNum);
+	console.log(randomNumber);
 }
 
