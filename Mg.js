@@ -10,11 +10,9 @@ function compare2(){
 	let myNum = document.getElementById('numValue').value;
 	
 	if(randomNumber == myNum){
-		console.log("correct number")
+		document.getElementById('root').innerHTML = `You have selected the right number. Your number is ${myNum}, while the Magic number is ${randomNumber}. Well Done!!!!!`
 	
 	}else{
-		console.log("Wrong number")
+		document.getElementById('root').innerHTML = `You have selected the Wrong number. Your numberis ${myNum}, while the Magic number is ${randomNumber}. Better luck next time!!!`
 	}
-	console.log(myNum);
-	console.log(randomNumber);
-
+}	
