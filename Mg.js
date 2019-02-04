@@ -4,7 +4,7 @@ function username() {
 	document.getElementById('mi').innerHTML =`Hey ${wname}! Please select your Magic Number`
 }
 
-function compare2(){
+function compre2(){
 	let randomNumber = Math.floor(Math.random()*8);
 	let eightBall = ' ';
 	let myNum = document.getElementById('numValue').value;
