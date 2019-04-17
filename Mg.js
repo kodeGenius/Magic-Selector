@@ -14,6 +14,6 @@ function compre2(){
 		document.getElementById('root').innerHTML = `You have selected the right number. Your number is ${myNum}, while the Magic number is ${randomNumber}. Well Done!!!!!`
 	
 	}else{
-		document.getElementById('root').innerHTML = `You have selected the Wrong number. Your numberis ${myNum}, while the Magic number is ${randomNumber}. Better luck next time!!!`
+		document.getElementById('root').innerHTML = `You have selected the Wrong number. Your number is ${myNum}, while the Magic number is ${randomNumber}. Better luck next time!!!`
 	}
 }	
