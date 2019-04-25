@@ -17,3 +17,5 @@ function compre2(){
 		document.getElementById('root').innerHTML = `You have selected the Wrong number. Your number is ${myNum}, while the Magic number is ${randomNumber}. Better luck next time!!!`
 	}
 }	
+
+// new function that may change
